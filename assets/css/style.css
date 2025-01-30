@@ -40,6 +40,16 @@
     padding: 12px 20px 12px 20px;
     border-radius: 0px 50px 50px 20px;
     border: none;
+    background-color: #fff;
+}
+
+.buton-1:hover{
+    background-color: #00A8E8;
+    color: white;
+}
+
+.compare-btn:hover, .submit-btn:hover{
+    background-color: skyblue;
 }
 
 .mw-620 {
