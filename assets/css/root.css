@@ -7,7 +7,7 @@
     --fs-2xl: 64px;
 
 
-    --poppins-font: "Poppins", serif;
+    --Helvitica: Helvetica;
 
     --lh-17: 17.6px;
     --lh-18: 18.4px;
@@ -25,10 +25,10 @@
     --fc-light-white: #EAF9FF;
     --fc-deep-blue: #00171F;
     --fc-crisp-blue: #007EA7;
-    --fc-green: #00E396;
-    --fc-purple: #8B35E2;
-    --fc-sky-blue: #00B2FF;
-    --fc-yellow: #FFA800;
+    --fc-prussian: #003459;
+    --fc-dark-color: #00000033;
+    --fc-sky-blue: #00A8E8;
+    --fc-dark-sky: #007EA7;
     --fc-light-red: #FF4560;
     --fc-light-black: #000000BF;
     --fc-dark-black: #0C0B0B;
@@ -45,7 +45,7 @@
     font-weight: var(--fw-md);
 }
 
-.fs-small{
+.fs-small {
     font-size: var(--fs-small);
 }
 
@@ -109,12 +109,12 @@
     color: var(--fc-crisp-blue);
 }
 
-.bg-green {
-    background-color: var(--fc-green);
+.fc-prussian {
+    color: var(--fc-prussian);
 }
 
-.bg-purple {
-    background-color: var(--fc-purple);
+.fc-dark-color{
+    background-color: var(--fc-dark-color);
 }
 
 .bg-orange {
@@ -125,8 +125,12 @@
     background-color: var(--fc-sky-blue);
 }
 
-.bg-yellow {
-    background-color: var(--fc-yellow);
+.fc-sky-blue{
+    color: var(--fc-sky-blue);
+}
+
+.bg-dark-sky{
+    background-color: var(--fc-dark-sky);
 }
 
 .bg-light-red {

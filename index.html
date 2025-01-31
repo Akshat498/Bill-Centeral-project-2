@@ -12,16 +12,16 @@
 </head>
 
 <body>
-    <section class="bg-image w d-flex align-items-center justify-content-center flex-column pb-40 ">
+    <section class="bg-image w d-flex align-items-center justify-content-center flex-column pb-40 position-relative">
         <div class="container mw-parent">
             <nav class="d-flex nav-bar align-items-center">
-                <div class="d-flex align-items-center ">
+              <a href="" class="d-flex align-items-center ">
                     <img class="" src="./assets/images/svg/nav-icon.svg" alt="logo">
-                </div>
+                </a>
                 <div onclick="navbarbtn()" class="z-5 d-block d-lg-none">
-                    <span class="menu-lines bg-white" id="rotats"></span>
-                    <span class="menu-lines bg-white" id="transparent"></span>
-                    <span class="menu-lines bg-white" id="rotats2"></span>
+                    <span class="menu-lines bg-white position-relative d-flex" id="rotats"></span>
+                    <span class="menu-lines bg-white position-relative d-flex" id="transparent"></span>
+                    <span class="menu-lines bg-white position-relative d-flex" id="rotats2"></span>
                 </div>
 
                 <ul id="nav-name" class="list-unstyled nav-link  d-flex align-items-center m-0">
@@ -47,7 +47,12 @@
                         <ul class="list-unstyled d-flex gap-20 ">
                             <li class="text-decoration-none list-unstyled align-items-center">
                                 <button class="buton-1  fs-sm  lh-18 fw-bold Helvetica align-items-center">Get
-                                    Started <img src="/assets/images/svg/buton-1-svg.svg" alt=""></button>
+                                    Started <svg class="" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M6 19L19 6M19 6V18.48M19 6H6.52" stroke="#00171F"
+                                            stroke-width="1.93338" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </button>
                             </li>
                         </ul>
                     </li>
@@ -57,26 +62,31 @@
         <div class="container">
             <div class="row pt-60">
                 <div class="col-12 col-lg-6">
-                    <h1 class="main-heading mt-50 pt-122">Easily Compare <strong class="main-heading-focus">Energy, Gas,
+                    <h1 class="main-heading mt-50 pt-122 fw-normal fs-2xl fc-white Helvetica ">Easily Compare <strong
+                            class="fw-bold">Energy, Gas,
                             And
                             Internet</strong> Plans</h1>
-                    <p class="para">Find and switch to the best energy, gas, and internet plans with ease. Our platform
+                    <p class="para fc-white Helvetica fw-normal fs-sm lh-24">Find and switch to the best energy, gas,
+                        and internet plans with ease. Our platform
                         simplifies your search, letting you
                         compare providers and make informed decisions, all in one place.</p>
                     <form class="position-relative mb-22">
-                        <input type="text" placeholder="Start typing your address" class="input ">
-                        <button class="compare-btn d-flex align-items-center"><span class="mr-3">Compare</span> <img
-                                src="./assets/images/svg/buton-2-svg.svg" alt="arrow"></button>
+                        <input type="text" placeholder="Start typing your address"
+                            class="input  reponsive Helvetica fs-sm fw-normal lh-17 ">
+                        <button class="compare-btn d-flex align-items-center bg-sky-blue fc-white position-absolute"><span
+                                class="mr-3 fw-bold fs-sm lh-18 Helvetica">Compare</span>
+                            <img src="./assets/images/svg/buton-2-svg.svg" alt="arrow"></button>
                     </form>
-                    <h3 class="text-companies mb-24">More Than <span class="text-eighty">80,000+</span> Companies Trust
+                    <h3 class="text-companies mb-24 Helvetica fs-lg lh-41 fw-normal fc-prussian">More Than <span
+                            class="fw-bold fc-sky-blue">80,000+</span> Companies Trust
                         Bill
                         Central</h3>
                 </div>
                 <div class="col-12 col-lg-6">
                     <div class="position-relative">
                         <img src="./assets/images/png/office-work-img.png" alt="girl"
-                            class="girl-img position-relative w-100">
-                        <img src="./assets/images/svg/Dots.svg" alt="dot" class="dots">
+                            class="girl-img position-relative responsive">
+                        <img src="./assets/images/svg/Dots.svg" alt="dot" class="dots position-absolute z-1">
                     </div>
                 </div>
             </div>
@@ -87,7 +97,7 @@
 
         <div class="container ">
             <div
-                class="d-flex align-items-center justify-content-center justify-content-space-between gap-45 overflow-x icons ">
+                class="d-flex align-items-center justify-content-center justify-content-space-between gap-45 overflow-x-auto icons ">
                 <img src="./assets/images/png/1st-energy.png" alt="icon" class="icon-1">
                 <img src="./assets/images/png/blue-nrg.png" alt="icon">
                 <img src="./assets/images/png/dodo.png" alt="icon">
@@ -99,17 +109,21 @@
     </section>
 
     <footer class="bg-img-2 ">
-        <div class="box position-relative bg-light-white d-flex justify-content-cente flex-column mx-auto">
+        <div class="box position-relative bg-light-white d-flex justify-content-cente flex-column mx-auto z-1">
+
             <img class="position-absolute left-shadow" src="/assets/images/svg/box-right-svg.svg" alt="">
-            <h2 class="fw-normal fs-xl lh-52 Helvetica fc-deep-blue text-center pt-54">Join Our<span
+
+            <h2 class="fw-normal fs-xl lh-52 Helvetica fc-deep-blue text-center pt-54">Join Our <span
                     class="fw-bold">Newsletter</span> </h2>
-            <p class="fw-normal fs-sm lh-24 Helvetica fc-deep-blue text-center mw-620 mx-auto">Stay up to date with the
+
+            <p class="fw-normal fs-sm lh-24 Helvetica fc-deep-blue text-center mw-620 mx-auto m-0">Stay up to date with
+                the
                 latest deals, energy-saving tips, and exclusive offers! Sign up for our
                 newsletter and never miss out on great savings opportunities again.</p>
 
-            <form class="position-relative mb-22 d-flex justify-content-center ">
-                <input type="text" placeholder="Start typing your address" class="input ">
-                <button class="submit-btn right-30 bg-crisp-blue  d-flex align-items-center"><span
+            <form class="position-relative mb-22 d-flex justify-content-center mt-38">
+                <input type="text" placeholder="Enter your email" class="input responsive fc-deep-blue">
+                <button class="submit-btn right-30 bg-crisp-blue  d-flex align-items-center bg-dark-sky fc-white"><span
                         class="mr-3">Submit</span> <img src="./assets/images/svg/buton-2-svg.svg" alt="arrow"></button>
             </form>
             <img class="right-shadow position-absolute" src="/assets/images/svg/box-right-svg-2.svg" alt="">
@@ -120,10 +134,11 @@
 
                 <div class=" col-12 col-sm-8">
                     <img src="/assets/images/svg/footer-icon.svg" alt="">
-                    <p class="fw-normal fs-sm lh-24 fc-white Helvetica mw-297 opacity-90 pt-28">Ut auctor nisi mauris eu
+                    <p class="fw-normal fs-sm lh-24 fc-white Helvetica mw-297 opacity-90 m-0 pt-28">Ut auctor nisi
+                        mauris eu
                         tincidunt facilisi. Diam amet sollicitudin pretium maecenas ornare lacus arcu adipiscing. </p>
-                    <p class="fw-bold Helvetica fs-md lh-23 fc-white">Follow Us</p>
-                    <div class="d-flex gap-16">
+                    <p class="fw-bold Helvetica fs-md lh-23 fc-white m pt-36">Follow Us</p>
+                    <div class="d-flex gap-16 mb-50">
                         <a href="https://www.linkedin.com/login"><img class="footer-icons"
                                 src="/assets/images/svg/linkdien.svg" alt=""></a>
                         <a href="https://www.instagram.com/direct/inbox/"><img class="footer-icons"
@@ -135,15 +150,16 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-sm-4 d-flex justify-content-end">
-                    <ul>
+                <div class="col-12 col-sm-4 d-flex justify-end">
+                    <ul class="gap-14 d-flex flex-column mb-0 p-0">
                         <li class="list-unstyled"><a class="fw-bold fs-md lh-30 fc-white text-decoration-none"
                                 href="">Quick Link</a></li>
                         <li class="list-unstyled"><a
                                 class="fw-normal fs-sm lh-18 fc-white opacity-90 text-decoration-none" href="">About</a>
                         </li>
                         <li class="list-unstyled"><a
-                                class="fw-normal fs-sm lh-18 fc-white opacity-90 text-decoration-none" href="">How It
+                                class="fw-normal fs-sm lh-18 fc-white opacity-90 text-decoration-none" href="">How
+                                It
                                 Works</a></li>
                         <li class="list-unstyled"><a
                                 class="fw-normal fs-sm lh-18 fc-white opacity-90 text-decoration-none"
@@ -159,7 +175,7 @@
                         </li>
                     </ul>
 
-                    <ul>
+                    <ul class="gap-14 d-flex flex-column ml-78 mb-0 p-0">
                         <li class="list-unstyled"><a class="fw-bold fs-md lh-30 fc-white text-decoration-none"
                                 href="">Services</a></li>
                         <li class="list-unstyled"><a
@@ -169,14 +185,16 @@
                                 class="fw-normal fs-sm lh-18 fc-white opacity-90 text-decoration-none" href="">Privacy
                                 Policy</a></li>
                         <li class="list-unstyled"><a
-                                class="fw-normal fs-sm lh-18 fc-white opacity-90 text-decoration-none" href="">Terms of
+                                class="fw-normal fs-sm lh-18 fc-white opacity-90 text-decoration-none" href="">Terms
+                                of
                                 Services</a></li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="line bg-slate-gray w-100 "></div>
-        <p class="fw-normal fs-small text-center fc-white opacity-90 lh-23 padding-20">© 2024 BILL CENTRAL, Inc. All
+        <div class="line bg-slate-gray w-100 mb-0 "></div>
+        <p class="fw-normal fs-small text-center fc-white opacity-90 lh-23 padding-20 mb-0">© 2025 BILL CENTRAL, Inc.
+            All
             Rights Reserved.</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
