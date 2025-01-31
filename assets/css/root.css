@@ -6,8 +6,7 @@
     --fs-xl: 48px;
     --fs-2xl: 64px;
 
-
-    --Helvitica: Helvetica;
+    --font-primary: "Helvetica";
 
     --lh-17: 17.6px;
     --lh-18: 18.4px;
@@ -18,23 +17,18 @@
     --lh-52: 52.8px;
     --lh-70: 70.4px;
 
-
-
-    --fc-white: #FFFFFF;
-    --fc-grey: #1D1A1A;
     --fc-light-white: #EAF9FF;
+    --fc-white: #FFFFFF;
     --fc-deep-blue: #00171F;
     --fc-crisp-blue: #007EA7;
     --fc-prussian: #003459;
     --fc-dark-color: #00000033;
     --fc-sky-blue: #00A8E8;
     --fc-dark-sky: #007EA7;
-    --fc-light-red: #FF4560;
-    --fc-light-black: #000000BF;
-    --fc-dark-black: #0C0B0B;
-    --fc-dark: #0C0C0C;
-    --fc-white-light: #b9b9b9;
-    --fc-slate-gray: #FFFFFF33;
+}
+
+.font-primary {
+    font-family: var(--font-primary) !important;
 }
 
 .fw-sm {
@@ -113,7 +107,7 @@
     color: var(--fc-prussian);
 }
 
-.fc-dark-color{
+.fc-dark-color {
     background-color: var(--fc-dark-color);
 }
 
@@ -125,11 +119,11 @@
     background-color: var(--fc-sky-blue);
 }
 
-.fc-sky-blue{
+.fc-sky-blue {
     color: var(--fc-sky-blue);
 }
 
-.bg-dark-sky{
+.bg-dark-sky {
     background-color: var(--fc-dark-sky);
 }
 
@@ -155,10 +149,6 @@
 
 .fc-white {
     color: var(--fc-white);
-}
-
-.poppins-font {
-    font-family: "Poppins", serif;
 }
 
 .lh-17 {
