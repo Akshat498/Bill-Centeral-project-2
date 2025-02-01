@@ -1,11 +1,9 @@
-/* @import url(./root.css); */
-
 @font-face {
     font-family: Helvetica;
     src: url("/assets/font/Helvetica.ttf");
 }
 
-.container {
+.max-w-1140 {
     max-width: 1140px !important;
 }
 
@@ -36,13 +34,13 @@
     stroke: var(--fc-white);
 }
 
-.compare-btn:hover,
-.submit-btn:hover {
+.compare-btn:hover {
     background-color: #0B4B6F;
 }
 
-.mw-620 {
+.box-text {
     max-width: 620px;
+    padding-bottom: 38px;
 }
 
 .main-heading {
@@ -80,21 +78,17 @@
     width: 100%;
 }
 
+
+.max-w-476{
+    max-width: 476px;
+}
+
 .compare-btn {
     padding: 12px 20px 12px 20px;
     border-radius: 0px 50px 50px 50px;
     border: none;
     top: 13%;
-    right: 15%;
-    text-align: left;
-}
-
-.submit-btn {
-    padding: 12px 20px 12px 20px;
-    border-radius: 0px 50px 50px 50px;
-    border: none;
-    right: 1%;
-    top: 13%;
+    right: 2%;
     text-align: left;
 }
 
@@ -209,15 +203,12 @@
 
     .icons {
         padding-top: 203px;
+        display: flex;
+        justify-content: space-between;
     }
 
     .gap-45 {
         gap: 45px;
-    }
-
-    .right-30 {
-        right: 30.1%;
-        top: 19%;
     }
 
     .input {
@@ -252,11 +243,8 @@
     
     .text-companies {
         color: var(--fc-white) !important;
+        padding-top: 32px;
         text-align: center;
-    }
-
-    .pb-40 {
-        padding-bottom: 40px;
     }
 
     .pt-60 {
@@ -266,10 +254,6 @@
     .para {
         margin-bottom: 22px;
         text-align: center;
-    }
-
-    .mb-22 {
-        margin-bottom: 22px;
     }
 
     .mb-24 {
@@ -284,11 +268,6 @@
         padding-top: 10px;
     }
 
-    .submit-btn {
-        right: 6.5%;
-        top: 18%;
-    }
-
     .girl-img {
         width: 90%;
         margin: auto;
@@ -301,6 +280,12 @@
 
     .input {
         width: 90%;
+        margin: auto;
+        display: flex;
+    }
+
+    .max-w-476 {
+        max-width: 900px !important;
         margin: auto;
         display: flex;
     }
@@ -326,7 +311,7 @@
         z-index: 3;
     }
 
-    .show-nvabar {
+    .show-navbar {
         right: 0 !important;
     }
 
@@ -361,12 +346,6 @@
 
 @media (max-width:375px) {
     .compare-btn {
-        right: 15%;
-        top: 110px;
-        transform: translate(-50%, -50%);
-    }
-
-    .submit-btn {
         right: 15%;
         top: 110px;
         transform: translate(-50%, -50%);

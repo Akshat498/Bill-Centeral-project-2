@@ -31,14 +31,6 @@
     font-family: var(--font-primary) !important;
 }
 
-.fw-sm {
-    font-weight: var(--fw-sm);
-}
-
-.fw-md {
-    font-weight: var(--fw-md);
-}
-
 .fs-small {
     font-size: var(--fs-small);
 }
@@ -83,21 +75,10 @@
     background-color: var(--fc-light-white);
 }
 
-.fc-dark {
-    color: var(--fc-dark);
-}
-
 .fc-deep-blue {
     color: var(--fc-deep-blue);
 }
 
-.bg-grey {
-    background-color: var(--fc-grey);
-}
-
-.bg-dark {
-    background-color: var(--fc-dark);
-}
 
 .fc-crisp-blue {
     color: var(--fc-crisp-blue);
@@ -111,7 +92,7 @@
     background-color: var(--fc-dark-color);
 }
 
-.bg-orange {
+.bg-crisp-blue {
     background-color: var(--fc-crisp-blue);
 }
 
